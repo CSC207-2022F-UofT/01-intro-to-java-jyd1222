@@ -41,11 +41,10 @@ public class Basics {
          *    (Relevant reading: 1.1.3. Printing things)
          */
         System.out.println(7 + 5);
-        System.out.println("Hello World");
         /* TODO (Task 1): Write a line of code below that prints the string
          *                Hello World!
          */
-
+        System.out.println("Hello World!");
 
 
         /* 4. In Python, we could declare variables using a simple assignment
@@ -176,8 +175,8 @@ public class Basics {
          *                You can index into arrays as we do in Python
          *                (e.g. arr[i] gives you the item at index i).
          */
-        for(int i = 0; i <= arr.length; i++){
-            if(arr[i] % 2 == 1){
+        for(int i = 0; i < arr.length; i++){
+            if(i % 2 == 1){
                 current_sum += arr[i];
             }
         }
